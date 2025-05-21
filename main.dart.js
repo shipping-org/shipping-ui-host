@@ -122162,7 +122162,7 @@ m="application/json"
 l="Authorization"
 s=3
 return A.k(A.dh(),$async$lq)
-case 3:p=o.an([n,m,l,"Bearer "+b.TE(),"Access-Control-Allow-Origin","*"],p,p)
+case 3:p=o.an([n,m,l,"Bearer "+b.TE(),"Access-Control-Allow-Origin","*","ngrok-skip-browser-warning","true"],p,p)
 q=p
 s=1
 break
